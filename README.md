@@ -1,20 +1,21 @@
-# Dirseek.py
-Esta é uma ferramenta simples feita em Python para escanear de portas abertas em hosts específicos ou em todos hosts ativos na rede. A ferramenta estabelece uma conexão tcp via sockets para verificar a abertura das TopPortas mais comuns em um determinado endereço IP. Ideal para pentests em redes e testes de conectividades.
+Dirseek.py
+Dirseek.py é uma ferramenta simples em Python para escanear portas abertas em hosts específicos ou em todos os hosts ativos na rede. A ferramenta estabelece uma conexão TCP via sockets para verificar a abertura das portas mais comuns em um endereço IP fornecido. Ideal para testes de penetração em redes e verificações de conectividade.
 
 Recursos:
-Escaneamento Rápido: Verifica uma ampla gama de portas comuns rapidamente.
-Personalização: Você pode facilmente modificar a lista de portas a serem verificadas.
-Simplicidade: Interface simples e fácil de usar, com entrada direta de IP.
+Escaneamento Rápido: Verifica rapidamente uma ampla gama de portas comuns.
+Personalização: Permite modificar facilmente a lista de portas a serem verificadas.
+Simplicidade: Interface simples e fácil de usar, com entrada direta do IP.
 Uso:
 Execute o script.
 Insira o endereço IP desejado quando solicitado.
 Aguarde enquanto o script verifica as portas especificadas.
-
 Exemplo:
+bash
+Copiar código
 $ python3 portscanner.py
-Digite o ip: 192.168.0.1
-Portas abertas em 192.168.0.1:
-80, 443, 8080
-Este projeto foi desenvolvido como parte de um aprendizado sobre programação em Python e para ajudar na detecção de serviços de rede disponíveis em um host específico.
+Digite o IP: 192.168.0.1
+Portas abertas em 192.168.0.1: 80, 443, 8080
+Este projeto foi desenvolvido como parte do aprendizado em programação Python e para auxiliar na detecção de serviços de rede disponíveis em um host específico.
 
 Sinta-se à vontade para ajustar ou adicionar mais detalhes conforme necessário!
+
